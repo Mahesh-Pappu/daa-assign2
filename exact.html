@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Core Exact</title>
+    <title>Exact</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,6 +14,7 @@
             color: white;
             text-align: center;
         }
+
         .navbar {
             display: flex;
             justify-content: center;
@@ -24,6 +26,7 @@
             left: 0;
             z-index: 1000;
         }
+
         .navbar a {
             color: white;
             text-decoration: none;
@@ -31,13 +34,16 @@
             font-size: 20px;
             transition: 0.3s;
         }
+
         .navbar a:hover {
             background-color: #575757;
         }
+
         .content {
             margin-top: 80px;
             padding: 20px;
         }
+
         .dataset-section {
             max-width: 800px;
             margin: auto;
@@ -46,39 +52,46 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
         }
+
         .dataset-table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
         }
-        .dataset-table th, .dataset-table td {
+
+        .dataset-table th,
+        .dataset-table td {
             border: 1px solid white;
             padding: 10px;
             text-align: center;
         }
+
         .dataset-table th {
             background-color: #444;
         }
+
         .histogram {
             margin-top: 20px;
             width: 100%;
         }
+
         .info {
             font-size: 18px;
             margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
     <div class="navbar">
         <a href="index.html">Home</a>
         <a href="exact.html">Exact</a>
         <a href="CoreExact.html">Core Exact</a>
     </div>
-    
+
     <div class="content">
         <div class="dataset-section">
-            <h1>Core Exact</h1>
+            <h1>Exact</h1>
             <h2>Dataset Information</h2>
             <table class="dataset-table">
                 <tr>
@@ -111,24 +124,24 @@
                 <tr>
                     <td>2</td>
                     <td>9.5</td>
-                    <td>2 ms</td>
+                    <td>17560 ms</td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>57</td>
-                    <td>5 ms</td>
+                    <td>25088 ms</td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>242.25</td>
-                    <td>119 ms</td>
+                    <td>36390 ms</td>
                 </tr>
             
             </table>
 
             <div class="info">
-                <h2>Number of vertices in the densest subgraph for  different h-values </h2>
-                <p><strong>h = 2</strong></br></br> 20 vertices</p>
+                <h2>Number of vertices in the densest subgraph for different h-values </h2>
+                <p><strong>h = 2</strong></br></br> 20 vertices </p>
                 <p><strong>h = 3</strong></br></br> 20 vertices </p>
                 <p><strong>h = 4</strong></br></br> 20 vertices </p>
             </div>
@@ -142,28 +155,33 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>8.46429</td>
-                    <td>11 ms</td>
+                    <td>8.875</td>
+                    <td>773631 ms</td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>34.0357</td>
-                    <td>18 ms</td>
+                    <td>35.9091</td>
+                    <td>814610 ms</td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>79.4643</td>
-                    <td>276 ms</td>
+                    <td>85.125</td>
+                    <td>694969 ms</td>
                 </tr>
             </table>
 
             <div class="info">
                 <h2>Number of vertices in the densest subgraph for different h-values </h2>
-                <p><strong>h = 2</strong></br></br> 28 vertices </p>
-                <p><strong>h = 3</strong></br></br> 28 vertices </p>
-                <p><strong>h = 4</strong></br></br> 28 vertices</p>
+                <p><strong>h = 2</strong></br></br>40 vertices </p>
+                <p><strong>h = 3</strong></br></br>33 vertices </p>
+                <p><strong>h = 4</strong></br></br>32 vertices </p>
             </div>
+            
         </div>
     </div>
 </body>
+
+</html>
+</body>
+
 </html>
